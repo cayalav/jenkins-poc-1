@@ -5,9 +5,9 @@ pipeline {
   stages {
     stage('Hello World') {
       steps {
-        helloWorld(name:"Carlos", dayOfWeek:"Juernes")
-        helloWorldSimple("Carlos","Juernes")
-        helloWorldExternal(name:"Carlos", dayOfWeek:"Juernes")
+        helloWorld(name:"Carlos", projectName:"jenkins-poc-1")
+        helloWorldSimple("Carlos","jenkins-poc-1")
+        helloWorldExternal(name:"Carlos", projectName:"jenkins-poc-1")
       }
     }
   }
