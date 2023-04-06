@@ -7,6 +7,7 @@ pipeline {
       steps {
         helloWorld(name:"Carlos", dayOfWeek:"Juernes")
         helloWorldSimple("Carlos","Juernes")
+        helloWorldExternal(name:"Carlos", dayOfWeek:"Juernes")
       }
     }
   }
